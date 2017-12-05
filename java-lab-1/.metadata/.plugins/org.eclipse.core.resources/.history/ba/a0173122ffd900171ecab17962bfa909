@@ -1,0 +1,19 @@
+package osoby;
+
+public class Dyrektor extends Osoba  {
+	
+	String szko³a;
+	private int pensja;
+	
+	public Dyrektor(String imie, String nazwisko, String szko³a, int pensja) {
+		super(imie, nazwisko);
+		this.szko³a = szko³a;
+		this.pensja = pensja;
+	}
+	
+	public void opis() {
+		super.opis();
+		System.out.println("Jestem dyrektorem szko³y : " + szko³a);
+	}
+
+}
