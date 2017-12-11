@@ -12,4 +12,7 @@ public class Osoba {
 	public void opis() {
 		System.out.println("Nazwywam sie " + imie + " " + nazwisko);
 	}
+	public String toString() {
+		return  imie +" "+ nazwisko;
+	}
 }

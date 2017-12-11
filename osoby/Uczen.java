@@ -14,4 +14,7 @@ public class Uczen extends Osoba {
 		super.opis();
 		System.out.println("Jestem uczniem klasy " + klasa + ", moja srednia ocen: " + srednia);
 	}
+	public String toString() {
+		return "Uczen " + super.toString() +" Chodzi do kalsy " + klasa+ " i ma œredni¹ ocen:  " + srednia;
+	}
 }
